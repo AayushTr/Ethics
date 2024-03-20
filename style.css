@@ -1,0 +1,65 @@
+/* Header styles */
+.html{
+  background-color: #db8d68;
+}
+.header {
+  background-color: #a75c3a;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.site-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Jumbotron styles */
+.jumbotron {
+  background-color:  #db8d68;
+  padding: 50px 0;
+}
+
+/* Card styles */
+.card {
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(210, 99, 20, 0.1);
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Contact section styles */
+.contact-section {
+  background-color: #343a40;
+  color:  #db8d68;
+  padding: 100px 0;
+}
+
+.contact-section h4 {
+  color:  #db8d68;
+}
+
+.contact-section p {
+  margin-bottom: 10px;
+}
+.hello{
+  z-index: 5;
+}
+.dynamic-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dynamic-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
